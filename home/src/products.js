@@ -8,5 +8,6 @@ export const getProductById = (id) =>
 
 export const currency = new Intl.NumberFormat('ru-ru', {
     currency: 'RUB',
-    style: 'currency'
+    style: 'currency',
+    maximumFractionDigits: 0
 })

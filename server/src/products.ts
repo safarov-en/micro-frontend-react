@@ -11,7 +11,7 @@ const products: Product[] = [
     {
         id: 1,
         name: 'Ноутбук HUAWEI MateBook',
-        price: 75.000,
+        price: 75000,
         description: 'Ноутбук HUAWEI MateBook D 16 2024/16"/Core i5-12450H/16/1TB/Win/Space Gray (53013YJF)',
         image: 'http://localhost:8080/notebook-1.jpg',
         longDescription: `Ноутбук Huawei MateBook D 16 2024 i5/16/1T Space Gray 53013YJF — устройство с 16-дюймовым экраном, в основе работы которого лежит IPS-матрица. Отличная детализация обеспечивается разрешением 1920х1200 пикселей. Предустановлена ОС Windows 11 «Домашняя 64». Тип процессора — восьмиядерный Intel Core i5 12450H с кэш-памятью объемом 12 МБ. Номинальная тактовая частота при повышенных нагрузках автоматически увеличивается до 4,4 ГГц. Установлена видеокарта Intel UHD Graphics. Она позволяет запускать игры последних лет и работать с профессиональным графическим ПО.
@@ -22,7 +22,7 @@ const products: Product[] = [
     {
         id: 2,
         name: 'Ноутбук Digma DN15R7-8CXW01',
-        price: 75.000,
+        price: 75000,
         description: 'Ноутбук Digma DN15R7-8CXW01',
         image: 'http://localhost:8080/notebook-2.jpg',
         longDescription: `Ноутбук Digma DN15R7-8CXW01`
@@ -30,7 +30,7 @@ const products: Product[] = [
     {
         id: 3,
         name: 'Ноутбук Huawei MateBook D',
-        price: 54.439,
+        price: 54439,
         description: 'Ноутбук HUAWEI MateBook D 16/16"/Core i5-12450H/16/512/NoOS/Space Gray (53013YDK)',
         image: 'http://localhost:8080/notebook-3.jpg',
         longDescription: `Ноутбук Huawei MateBook D 16 2024 i5/16/512/DOS Space Gray 53013YDK с металлическим корпусом цвета «серый космос», толщина которого составляет 18,4 мм, весит 1,7 кг. Конфигурация построена вокруг восьмиядерного процессора Intel Core i5 12450H. Объем оперативной памяти — 16 ГБ, постоянной — 512 ГБ.
@@ -39,7 +39,7 @@ const products: Product[] = [
     {
         id: 4,
         name: 'Игровой ноутбук Thunderobot 911S Core XD JT009400ERU',
-        price: 89.500,
+        price: 89500,
         description: 'Ноутбук игровой Thunderobot 911S Core XD/15.6"/Core i5-12450H/16/512/RTX 4050/noOS/Black',
         image: 'http://localhost:8080/notebook-4.jpg',
         longDescription: `Игровой ноутбук Thunderobot 911S Core XD JT009400ERU со слотом расширения 2,5" SATA отличается SSD-накопителем емкостью 512 ГБ и модулем RAM на 16 ГБ с возможностью увеличения до 64 ГБ. Двухканальный режим памяти DDR5 с частотой 4800 МГц обеспечивает удобную эксплуатацию. Зависания исключены благодаря восьмиядерному процессору Intel Core i5 12450H с постоянным и максимальным показателями 2 ГГц и 4,4 ГГц.
@@ -49,7 +49,7 @@ const products: Product[] = [
     {
         id: 5,
         name: 'Ноутбук игровой Thunderobot 911S Core',
-        price: 84.500,
+        price: 84500,
         description: 'Ноутбук игровой Thunderobot 911S Core SD/15.6"/Core i5-12450H/8/512/RTX 3050/noOs/Black',
         image: 'http://localhost:8080/notebook-5.jpg',
         longDescription: `Ноутбук игровой Thunderobot 911S Core SD/15.6"/Core i5-12450H/8/512/RTX 3050/noOs/Black`
@@ -57,7 +57,7 @@ const products: Product[] = [
     {
         id: 6,
         name: 'Thunderobot 911S Core D JT009K00FRU',
-        price: 84.500,
+        price: 84500,
         description: 'Ноутбук игровой Thunderobot 911S Core D/15.6"/Core i5-12450H/16/512/RTX 3050/noOS/Black',
         image: 'http://localhost:8080/notebook-6.jpg',
         longDescription: `Игровой ноутбук Thunderobot 911S Core D JT009K00FRU — 15,6-дюймовая модель с IPS-матрицей и разрешением 1920х1080 пикселей. Отличается высокой частотой обновления — достигает 144 Гц. Матовое покрытие экрана уменьшает количество бликов, обеспечивая комфортные условия для глаз.
@@ -68,7 +68,7 @@ const products: Product[] = [
     {
         id: 7,
         name: 'Thunderobot 911S Core JT009F00FRU',
-        price: 90.000,
+        price: 90000,
         description: 'Ноутбук игровой Thunderobot 911S Core/15.6"/Core i5-12450H/16/512/RTX 3050/Win/Black',
         image: 'http://localhost:8080/notebook-7.jpg',
         longDescription: `Игровой ноутбук Thunderobot 911S Core JT009F00FRU со слотом расширения 2,5" SATA 3.0 отличается SSD-накопителем емкостью 512 ГБ и модулем RAM на 16 ГБ с возможностью увеличения до 64 ГБ. Двухканальный режим памяти DDR4 с частотой 3200 МГц обеспечивает удобную эксплуатацию. Зависания исключены благодаря восьмиядерному процессору Intel Core i5 12450H с постоянным и максимальным показателями 2 ГГц и 4,4 ГГц.
@@ -78,7 +78,7 @@ const products: Product[] = [
     {
         id: 8,
         name: 'Ноутбук Digma DN16R7-ADXW02',
-        price: 48.500,
+        price: 48500,
         description: 'Ноутбук Digma Pro Sprint M Silver/16.1"/AMD Ryzen 7 3700U/16/512/Win/Silver',
         image: 'http://localhost:8080/notebook-8.jpg',
         longDescription: `Ноутбук Digma DN16R7-ADXW02 разработан для решения учебных, творческих и офисных задач. Девайс функционирует под управлением операционной системы Windows 11 Pro с интуитивно понятным интерфейсом и опциями безопасности. Четырехъядерный процессор AMD Ryzen 7 3700U (2,3-4,0 ГГц) и видеокарта RX Vega 10 поддерживают высокую производительность и вычислительную способность системы. Размер оперативной памяти DDR4 So-Dimm ноутбука составляет 16 Гб (с возможностью увеличения до 32 Гб), емкость SSD-накопителя — 512 Гб. Встроенные адаптеры Wi-Fi 802.11 a/b/g/n/ac и Bluetooth версии 5.0 поддерживают беспроводную связь с совместимыми устройствами.
@@ -88,7 +88,7 @@ const products: Product[] = [
     {
         id: 9,
         name: 'Ноутбук "Game Book"',
-        price: 25.000,
+        price: 25000,
         description: 'Ноутбук "Game Book", 15.6", 12GB, SSD 128GB',
         image: 'http://localhost:8080/notebook-9.jpg',
         longDescription: `Новый 15,6-дюймовый ноутбук для игр и бизнеса
@@ -124,7 +124,7 @@ Offer ID: 705813283922`
     {
         id: 10,
         name: 'Ноутбук UOHUO Lightbook',
-        price: 34.850,
+        price: 34850,
         description: 'Ноутбук UOHUO Lightbook, Intel Celeron J4125 (2.0 ГГц), RAM 12 ГБ, SSD 512 ГБ, Intel HD Graphics 600, Windows 10 Pro',
         image: 'http://localhost:8080/notebook-10.jpg',
         longDescription: `Внимание! Каждому покупателю - чехол и мышка в подарок!
@@ -137,7 +137,7 @@ Offer ID: 705813283922`
     {
         id: 11,
         name: 'Ноутбук Echips Envy',
-        price: 89.850,
+        price: 89850,
         description: 'Ноутбук Echips Envy 15.6" 1920x1080 IPS Intel Celeron N5095 8GB RAM SSD 240GB Win 11 Home',
         image: 'http://localhost:8080/notebook-11.jpg',
         longDescription: `Быстрый и стильный ноутбук Echips Envy.
