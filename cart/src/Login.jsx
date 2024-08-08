@@ -6,7 +6,7 @@ export default function Login() {
     const [showLogin, setShowLogin] = useState(false)
     const [username, setUsername] = useState('sally')
     const [password, setPassword] = useState('123')
-    if(!loggedIn) return null
+    if(loggedIn) return null
     return (
         <>
             <span onClick={() => setShowLogin(!showLogin)}>
