@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 import {BehaviorSubject} from 'rxjs'
 
 const API_SERVER = "http://localhost:8080"
