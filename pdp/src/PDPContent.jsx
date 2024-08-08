@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import 'tailwindcss/tailwind.css'
 import { useParams } from 'react-router-dom'
 import {getProductById, currency} from 'home/products'
 

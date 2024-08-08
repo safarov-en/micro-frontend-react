@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import 'tailwindcss/tailwind.css'
 import { login, useLoggedIn } from './cart'
 
 export default function Login() {
@@ -17,7 +18,8 @@ export default function Login() {
                     className='absolute p-5 border-4 border-blue-800 bg-white rounded-xl text-black'
                     style={{
                         width: 300,
-                        top: '2rem'
+                        top: '2rem',
+                        left: -250
                     }}
                 >
                     <input

@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react"
+import 'tailwindcss/tailwind.css'
 import {cart, clearCart} from './cart'
 import {currency} from 'home/products'
 
