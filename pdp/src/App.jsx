@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-
+import 'tailwindcss/tailwind.css'
 import "remixicon/fonts/remixicon.css"
 
 import "./index.scss";
