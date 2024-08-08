@@ -10,7 +10,7 @@ export default function Login() {
     return (
         <>
             <span onClick={() => setShowLogin(!showLogin)}>
-                <i className='ri-fingerprint-line text-2xl' id='showlogin'></i>
+                <i className='ri-fingerprint-line text-2xl' id='showlogin' />
             </span>
             {showLogin && (
                 <div
